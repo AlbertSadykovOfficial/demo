@@ -27,7 +27,7 @@ font-weight: 700;
 padding: 17px 55px ;
 margin-top: 33px;
 }
-header small {margin-top: 3px;font-size: 12px; display : block;padding: 17px 55px ;}
+header small {margin-top: 3px;font-size: 12px; display : block;padding: 17px 55px ;padding-left: 45px;}
 .Header-button-block{max-width: 210px;}
 
 /*  Portfolio */
