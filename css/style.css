@@ -14,7 +14,8 @@ header {
 }
  .header-pretitle { margin-top: 102; }
  .header-title { font-size: 48px; margin-top: 21px;	font-weight: 700;line-height: 46px;}
- .header-subtitle{ margin-top: 20px;margin-bottom: 30px; }
+ .header-subtitle{ margin-top: 20px;margin-bottom: 5px; }
+ .Instagram { max-width: 25%; }
  .Header-button {
 display: inline-block;
 text-decoration: none;
@@ -26,9 +27,15 @@ font-size: 18px;
 font-weight: 700;
 padding: 17px 55px ;
 margin-top: 33px;
+                   /*  TOOOOOOOOOOP*/
+-webkit-transition:0.2s;
+-o-transition:0.2s;
+-transition:0.2s;
 }
+.Header-button:hover{ box-shadow: none;}
 header small {margin-top: 3px;font-size: 12px; display : block;padding: 17px 55px ;padding-left: 45px;}
 .Header-button-block{max-width: 210px;}
+
 
 /*  Portfolio */
 .Portfolio {background-color: #dddddd;	padding-top: 44px; padding-bottom: 71px;}
@@ -96,7 +103,15 @@ background-color: transparent;
 color:#fff;
 font-size: 18px;
 padding: 12px 70px;
+/**/
+-webkit-transition:0.2s;
+-o-transition:0.2s;
+-transition:0.2s;
  } 
+ .footer-button:hover{
+ 	background-color: #fff;
+ 	color:#3a7dfd;
+ }
 
  /*                  optimisation   */
  @media (max-width: 1200px) {
